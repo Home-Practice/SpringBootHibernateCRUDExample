@@ -41,6 +41,20 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+	
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://172.31.44.132:8081/repository/SpringBootHibernate-Snapshot/</url>
+		</snapshotRepository>
+				
+		<repository>
+			<id>nexus</id>
+			<url>http://172.31.44.132:8081/repository/SpringBootHibernate-Release/</url>
+	        </repository>
+	
+	</distributionManagement>
 
 	<build>
 		<plugins>
