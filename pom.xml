@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<packaging>war</packaging>
 		<version>2.1.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.javaguides.springboot</groupId>
 	<artifactId>springboot-crud-hibernate-example</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-crud-hibernate-example</name>
 	<description>spring boot crud operations example with hibernate</description>
